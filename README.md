@@ -1,0 +1,3 @@
+# Unexpected MATLAB 'error' Function Behavior in Nested Functions
+
+This repository demonstrates an uncommon MATLAB error related to the use of the 'error' function within nested functions.  Improper handling of errors in nested functions can result in unexpected behavior or crashes, especially when combined with 'try-catch' blocks. The example shows a scenario where the 'error' function is called in a nested function, and demonstrates a common way to mitigate this problem.
